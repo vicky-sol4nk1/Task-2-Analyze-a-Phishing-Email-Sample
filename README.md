@@ -3,6 +3,7 @@
 phishing email sample screenshot
 ![My screenshot](screenshot-smaple-email.png)
 
+![My screenshot](email-headers.png)
 
 # Phishing Email Analysis Report  
 **Sample ID:** Microsoft Unusual Sign-in Activity Phishing (August 2023 sample)  
