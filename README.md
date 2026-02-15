@@ -7,7 +7,9 @@ phishing email sample screenshot
 
 ## tools:
 mxtoolbox.com:used for email header analysis
+
 chagtgpt,grok ai:used for improving quality of analysis and fast anlaysis
+
 https://msgeml.com/: used for viewing email by .eml extesion file (if we have a raw text so we can first save it with .eml extension and view using email veiwer tools)
 
 # Phishing Email Analysis Report  
@@ -124,5 +126,3 @@ Real Microsoft emails always pass SPF + DKIM and usually have a strict DMARC pol
 Goal: Trick user into replying to attacker-controlled Gmail address → credential harvesting, follow-up attacks, or account takeover attempts.
 
 
-This format makes your analysis very professional and easy to understand.  
-Let me know if you want me to help format it in Markdown for GitHub, add more technical details, or explain any part further, bhai! Keep up the great work analyzing phishing samples — this is excellent practice for CEH / real-world SOC work. 🚀
