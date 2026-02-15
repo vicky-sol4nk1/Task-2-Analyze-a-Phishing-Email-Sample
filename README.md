@@ -1,5 +1,8 @@
 # Task-2-Analyze-a-Phishing-Email-Sample
- tools: emai
+
+phishing email sample screenshot
+![My screenshot](sample-microsoft-email.png)
+
 
 # Phishing Email Analysis Report  
 **Sample ID:** Microsoft Unusual Sign-in Activity Phishing (August 2023 sample)  
