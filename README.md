@@ -3,7 +3,12 @@
 phishing email sample screenshot
 ![My screenshot](screenshot-smaple-email.png)
 
-![My screenshot](email-headers.png)
+
+
+## tools:
+mxtoolbox.com:used for email header analysis
+chagtgpt,grok ai:used for improving quality of analysis and fast anlaysis
+https://msgeml.com/: used for viewing email by .eml extesion file (if we have a raw text so we can first save it with .eml extension and view using email veiwer tools)
 
 # Phishing Email Analysis Report  
 **Sample ID:** Microsoft Unusual Sign-in Activity Phishing (August 2023 sample)  
@@ -36,12 +41,12 @@ phishing email sample screenshot
 | Received-SPF   | None                 | protection.outlook.com says: domain does not designate permitted sender hosts                   |
 | Authenticated  | Anonymous            | X-MS-Exchange-CrossTenant-AuthAs: Anonymous                                                    |
 
+![My screenshot](email-headers.png)
+
 **Conclusion:** This email **fails all major email authentication checks** (SPF, DKIM, DMARC).  
 Real Microsoft emails always pass SPF + DKIM and usually have a strict DMARC policy (p=reject/quarantine).
 
-**Screenshot recommendation:**  
-- Full headers view (top part showing SPF=none, dkim=none, dmarc=permerror)  
-  → Add caption: "Authentication headers – complete failure of SPF, DKIM & DMARC"
+
 
 ## 3. Sending Infrastructure (Origin & Path)
 
@@ -101,13 +106,7 @@ Real Microsoft emails always pass SPF + DKIM and usually have a strict DMARC pol
   - Possibly login credentials if they reply with more info
   - Can start follow-up phishing ("please verify your account", "send password", etc.)
 
-**Screenshot recommendation (multiple):**
-1. **Full rendered email body** (how it looks in email client / browser)  
-   → Caption: "Rendered phishing email – fake Microsoft branding"
-2. **Close-up of the "Report The User" button/link** (highlight the mailto: link)  
-   → Caption: "Malicious mailto: link pointing to attacker's Gmail"
-3. **Reply-To address visible**  
-   → Caption: "Reply-To is a personal Gmail – classic phishing sign"
+
 
 ## 5. Red Flags Summary Table
 
