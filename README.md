@@ -1,7 +1,7 @@
 # Task-2-Analyze-a-Phishing-Email-Sample
 
 phishing email sample screenshot
-![My screenshot](sample-microsoft-email.png)
+![My screenshot](screenshot-smaple-email.png)
 
 
 # Phishing Email Analysis Report  
